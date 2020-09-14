@@ -107,14 +107,14 @@ public class Main extends Application {
 			double precisionObtenida;
 			
 			do {
-				numFuncion = (coefA4 * semilla * semilla * semilla * semilla
-						+ coefA3 * semilla * semilla * semilla
-						+ coefA2 * semilla * semilla
+				numFuncion = (coefA4 * Math.pow(semilla, 4)
+						+ coefA3 * Math.pow(semilla, 3)
+						+ coefA2 * Math.pow(semilla, 2)
 						+ coefA1 * semilla
 						+ coefA0);
 				
-				numFuncionDerivada = (4 * coefA4 * semilla * semilla * semilla
-						+ 3 * coefA3 * semilla * semilla
+				numFuncionDerivada = (4 * coefA4 * Math.pow(semilla, 3)
+						+ 3 * coefA3 * Math.pow(semilla, 2)
 						+ 2 * coefA2 * semilla 
 						+ 1 * coefA1);
 				
