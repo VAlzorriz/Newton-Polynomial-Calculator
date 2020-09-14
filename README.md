@@ -4,7 +4,7 @@ Develop from September 2018 to January 2019 in Madrid, Spain.
 
 ## About:
 
-About
+This Java application allows you to solve Newton Raphson polynomials with five coefficients. For the application to work the user must insert the parameters seed, precision and the five coefficients of the polynomial that you want to resolve. Once all the parameters are inserted the user must press the "Calculate" button and the application will resolve the polynomial and give the result.
 
 ## Team:
 
@@ -12,7 +12,7 @@ This project was developed by two other engineers and my self during the first s
 
 ## Development:
 
-Development
+To develop this project, first, the team had to research thoroughly how the Newton Raphson method to resolve polynomials works. Once the team had a good understanding of how the method works and knew how to resolve polynomials by hand, we started coding the method in Java. When we had a complete version, we test it inserting parameters manually from a couple polynomials that we resolve earlier to check if the program gave the correct result. Once we knew that the program works perfectly, we started creating the user interface using JavaFx, together with Scene Builder to make the interface easier and faster. When we had everything done, we did a final test with another polynomial, this time using the interface, to make sure that everything works fine.
 
 
 ## Languages and tools:
